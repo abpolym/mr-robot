@@ -17,7 +17,7 @@ keywords = ['Dylan; June 3rd, Stonehendge', '1984; 8D; Sa???', '2C;Yankees;Flipp
 listcounts = [42808, 9875894, 9875894]
 possibilities = [8768028, 9875894, 9875894]
 prompt = bcolors.OKBLUE + 'root@elliot:' + bcolors.ENDC + ' '
-pos = randint(0,len(passwords))
+pos = randint(0,len(passwords)-1)
 start_time = time.time()
 print prompt + 'ping (222.12.154.102)'
 print prompt + 'ping (222.12.154.102) 56(84) bytes of data'
