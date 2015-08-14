@@ -34,3 +34,4 @@ print prompt + 'Scanning complete'
 print prompt + 'Time elapsed: ' + str(time.time() - start_time)
 print prompt + 'Password: ' + passwords[pos]
 # Quick git sign test
+# Quick blinking commit test
